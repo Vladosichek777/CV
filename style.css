@@ -1,0 +1,120 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: rgba(220, 210, 202, 0.941);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/*Ссылки*/
+.li-item {
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 15px;
+  color: white;
+}
+/*Список*/
+.ul-class {
+  display: flex;
+  list-style: none;
+}
+/*div в голове*/
+.color {
+  background-color: rgb(91, 117, 93);
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+/*Блок инфы*/
+.title {
+  font: 20px Roboto, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+/*Мое фото*/
+.avatar {
+  margin: 35px 50px 30px 0;
+}
+/*ФИО*/
+.name {
+  margin-top: 90px;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  background-color: black;
+  margin-left: 93px;
+}
+
+.line_2 {
+  height: 25px;
+  background-color: rgb(91 117 93 / 27%);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+#padding {
+  margin-left: 40px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.first-box {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.block1 {
+  width: 30%;
+}
+
+.block2 {
+  width: 30%;
+}
+
+.line3 {
+  height: 10px;
+  background-color: rgb(91 117 93 / 27%);
+}
+
+.second-box {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.block3 {
+  width: 30%;
+}
+
+.block4 {
+  width: 30%;
+}
+
+.third-box {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.block5 {
+  width: 30%;
+}
+
+.block6 {
+  width: 30%;
+}
+
+.footer {
+  background-color: rgb(91, 117, 93);
+  display: flex;
+  justify-content: space-around;
+}
